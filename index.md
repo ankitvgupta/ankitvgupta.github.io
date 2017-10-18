@@ -11,7 +11,7 @@ Hi! I am a 2017 graduate of Harvard University, where I earned a joint BA/MS in 
 
 For my thesis, I used Dilated Convolutional Neural Networks to improve regulatory marker predictive accuracy on a whole-genome labeling task. This work was accepted to the ICML 2017 Workshop in Computational Biology, where I was also invited to give a talk, and received a speaker award and best poster award. I was co-advised by Dr. David Kelley, of the Broad Institute, for this work.
 
-## Research Interest
+## Research Interests
 
 I'm primarily interested in developing widely-applicable machine learning models. My existing research experiences have spanned a variety of machine learning domains, including bayesian inference and deep learning. I'm particularly interested in problem domains that pose unique data constraints. For example, genomics datasets tend to be much sparser and have longer-distance dependencies than comparable sequential datasets in natural language processing. I'm interested in understanding how these unique constraints limit the efficacy of existing models, and in building models that are robust to them.
 
