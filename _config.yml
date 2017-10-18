@@ -3,7 +3,7 @@ url: "https://ankitvgupta.github.io"
 baseurl: "/"
 
 markdown: kramdown
-
+twitter_username: GuptaAnkitV
 tracking_id: #
 
 sass:
