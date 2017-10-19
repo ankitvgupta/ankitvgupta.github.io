@@ -13,7 +13,7 @@ For my thesis, I used Dilated Convolutional Neural Networks to improve regulator
 
 ## Research Interests
 
-I'm primarily interested in developing widely-applicable machine learning models. My existing research experiences have spanned a variety of machine learning domains, including bayesian inference and deep learning. I'm particularly interested in problem domains that pose unique data constraints. For example, genomics datasets tend to be much sparser and have longer-distance dependencies than comparable sequential datasets in natural language processing. I'm interested in understanding how these unique constraints limit the efficacy of existing models, and in building models that are robust to them.
+I'm primarily interested in developing machine learning models that are robust to widely different problem domains. My existing research experiences have spanned a variety of machine learning domains, including bayesian inference and deep learning. I'm particularly interested in problem domains that pose unique data constraints. For example, genomics datasets tend to be much sparser and have longer-distance dependencies than comparable sequential datasets in natural language processing. I'm interested in understanding how these unique constraints limit the efficacy of existing models, and in building models that are robust to them.
 
 ## Publications
 
