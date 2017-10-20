@@ -56,7 +56,7 @@ Year | Course | Professor
 * Finale Doshi-Velez: Assistant Professor of Computer Science, Harvard University
 
 ## Website
-This is a jekyll based resume template. You can find the full source code on [GitHub](https://github.com/bk2dcradle/researcher)
+This is based on jekyll website template. You can find the original template source code on [GitHub](https://github.com/bk2dcradle/researcher).
 
 
 
