@@ -41,28 +41,13 @@ Year | Course | Professor
 2014 | CS 50: Introduction to Computer Science | David Malan
 
 ## Projects
-
-* **Predicting regulatory markers using dilated convolutional neural networks [Thesis].**
-	This work uses deep learning to predict the locations of regulatory markers in the human genome. The markers include transcription factor binding sites, histone modifications, and DNAse hypersensitivity sites. I had noticed that prior work in this area only considered short sequences of DNA, where were generally 1000 base-pairs or less. However, due to DNA's complex three-dimensional conformation, there exists dependencies on the scale of several thousands, or even millions, of base-pairs in the genome that would likely be relevant to predicting regulatory marker locations. To address this, I proposed an architecture using dilated convolutional neural networks, which had prevously been used for image segmentation and text-to-speech to build a predictive model for regulatory markers. This model was more effective than past techniques at labeling regulatory markers across the entire human genome. Advised by Professor Alexander Rush and Dr. David Kelley. Implemention done in Python using Tensorflow. [arXiv]](https://arxiv.org/abs/1710.01278) [[code]](https://github.com/harvardnlp/regulatory-prediction)
-
-* **Correlated Topic Model (CTM) to organize genes in the human genome.**
-	I sought to improve upon prior efforts to use topic models to model genetic expression using RNA-seq data. Past work used methods like Latent Dirichlet Allocation, which involve a generative process in which topics are independent of one another. I hypothesized that when trying to use a topic model to organize genes into topics, this assumption would likely not stand. As such, I implemented a Correlated Topic Model from scratch using Variational EM, and showed that it could discover interesting and relevant topics. Implementation done in Python with Numpy. [Poster]]() [[code]](https://github.com/harvardnlp/regulatory-prediction)
-
-* **Protein secondary structure prediction using LSTM-based maximum entropy markov model.**
-	We were interested in developoing models for protein secondary structure directly from the protein sequence. Given an input protein sequence, we sought to predict the secondary structure label at each position. We used a number of state-of-the-art sequential processing techniques, ranging from simple maximum entropy markov models to Bidirectional LSTMs. Implementation was done in Torch. Collaboration with Tom Silver.
-
-* **MapReduce-based implementation of Stable Marriage Problem with PySpark.**
-	We revisit a variant of the Stable Marriage Problem, used for real-world situations like the national residency match. In this task, we have a set of medical residencies and a set of hospitals, each of which has a ranking over the other, and each hospital has a set number of spots. We wish to find a set of stable matchings such that there is no pairing of resident and hospital such that the resident prefers the hospital over their assigned hospital, and the hospital prefers the resident over any of their current ones. We implemented a fully-parallelized version of this famous algorithm using MapReduce via Apache Spark. Implementation in Python with PySpark. Collaboration with Jonah Kallenbach.
-
-* **Distributed blockchain-based verifiable voting system.**
-	We re-consider a fundamental property of American voting system: privacy of one's vote in exchange for uncertainty of it being counted. We considered how one could design a distributed system that allows every voter to *guarantee* that their vote is counted, in exchange for somewhat less privacy. To do this, we implement the blockchain protocol, complete with miners that ensure that votes are bundled into blocks, voting machines that add new transactions (votes) to the global ledger, and a distributed ledger. Implementation in C++, using gRPC and Google Protocol Buffers, and functions over AWS. Collaboration with Jonah Kallenbach, Matt Rauen, and Willy Xiao.
-
-* **CuckooRings: Fast Consistent Hashing Algorithm using Cuckoo Hashing and Ring-based consistent hashing.**
-	We sought to combine two hashing technologies: Cuckoo Hashing and Consistent Hashing into one that combined the benefits of both. Cuckoo Hashing uses two hash tables to allow for amortized constant time hashes and lookups. Consistent Hashes uses a ring-based data structure to allow a hash table to reduce or increase the number of buckets without needing the rehash the entire table. We combined these two technologies into a single CuckooRing hashing structure, which allows for fast hashes and lookups, as well as resilience to changing numbers of buckets. Implemented in C++. Collaboration with Jonah Kallenbach.
-
-* **LSTMs to build a predictive model for user behavior on iOS.**
-	We take advantage of a simple vector for a potential side-channel attack in iOS 10: Safari allows websites to request accelerometer data from users without requesting any additional permissions. We show that this data can be used to ascertain, with reasonably high probability, what a user is doing at the time (walking, running, going up stairs, etc.). Collaboration with Ezra Zigmond.
-
+<div>
+<ul>
+	{% for project in site.projects %}
+  	<li>{{ project.output }} </li>
+	{% endfor %}
+</ul>
+</div>
 
 ## References
 

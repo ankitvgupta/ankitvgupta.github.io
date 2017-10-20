@@ -1,0 +1,6 @@
+---
+layout: project
+title: Project1
+---
+**Predicting regulatory markers using dilated convolutional neural networks [Thesis].**
+	This work uses deep learning to predict the locations of regulatory markers in the human genome. The markers include transcription factor binding sites, histone modifications, and DNAse hypersensitivity sites. I had noticed that prior work in this area only considered short sequences of DNA, where were generally 1000 base-pairs or less. However, due to DNA's complex three-dimensional conformation, there exists dependencies on the scale of several thousands, or even millions, of base-pairs in the genome that would likely be relevant to predicting regulatory marker locations. To address this, I proposed an architecture using dilated convolutional neural networks, which had prevously been used for image segmentation and text-to-speech to build a predictive model for regulatory markers. This model was more effective than past techniques at labeling regulatory markers across the entire human genome. Advised by Professor Alexander Rush and Dr. David Kelley. Implemention done in Python using Tensorflow. [arXiv]](https://arxiv.org/abs/1710.01278) [[code]](https://github.com/harvardnlp/regulatory-prediction)

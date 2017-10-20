@@ -6,6 +6,9 @@ markdown: kramdown
 twitter_username: GuptaAnkitV
 tracking_id: UA-108355039-1
 
+collections:
+  - projects
+
 sass:
     style: compressed
     sass_dir: _sass
