@@ -4,7 +4,7 @@ baseurl: "/"
 
 markdown: kramdown
 twitter_username: GuptaAnkitV
-tracking_id: #
+tracking_id: UA-108355039-1
 
 sass:
     style: compressed
