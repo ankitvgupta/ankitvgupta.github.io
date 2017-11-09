@@ -1,5 +1,8 @@
+- name: "Blog"
+  link: "/blog"
+
 - name: "Contact"
-  link: "contact"
+  link: "/contact"
 
 - name: "Resume"
   link: "resume.pdf"

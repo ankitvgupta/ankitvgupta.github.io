@@ -9,6 +9,8 @@ tracking_id: UA-108355039-1
 collections:
   - projects
 
+paginate: false
+
 sass:
     style: compressed
     sass_dir: _sass
