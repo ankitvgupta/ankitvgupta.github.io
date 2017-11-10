@@ -18,8 +18,20 @@ a {
     text-decoration: none;
     color: $accent;
 }
+a.blogpost {
+    color: #000000;
+}
+a.blogpost:hover {
+    color: $accent;
+}
 a:hover {
     text-decoration: underline;
+}
+.item {
+    padding: 10px 0px;
+}
+.item .date {
+    padding: 0px 0px 0px 50px
 }
 hr {
     border: 0;
