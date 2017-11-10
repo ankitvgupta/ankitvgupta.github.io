@@ -5,7 +5,7 @@
   link: "/contact"
 
 - name: "Resume"
-  link: "resume.pdf"
+  link: "/assets/resume.pdf"
 
 - name: "Github"
   link: "https://github.com/ankitvgupta/"
