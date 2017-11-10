@@ -15,6 +15,8 @@ category: blog
 
 This blog post motivates and summarizes the paper (citation above) that I presented at ICML 2017 in August. I was invited to give a talk at the workshop, and also won a speaker award and best paper award at the conference. Read the paper [on arXiv](https://arxiv.org/abs/1710.01278). There is a rough version of the code available [on Github](https://github.com/harvardnlp/regulatory-prediction), and we will soon be releasing a much better and easy-to-use version.
 
+I also want to give a special thanks to [Dave Kelley](https://www.calicolabs.com/team-member/david-kelley/), now at Calico, who was a helpful guide for understanding the complexity of this domain.
+
 ## Overview of Machine Learning $$\times$$ Genomics 
 
 In the past few years, there have been significant advances in both machine learning and genomics. In machine learning, there has been rapid advancement on tasks like image classification, segmentation, and machine translation using deep neural networks. These models require large amounts of training data, and put simply usually either learn hierarchical features through convolutional layers or sequential dependencies through recurrent layers. 
