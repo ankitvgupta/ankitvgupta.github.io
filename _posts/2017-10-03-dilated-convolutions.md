@@ -15,11 +15,11 @@ category: blog
 
 This blog post motivates and summarizes the paper (citation above) that I presented at ICML 2017 in August. I was invited to give a talk at the workshop, and also won a speaker award and best paper award at the conference. Read the paper [on arXiv](https://arxiv.org/abs/1710.01278). There is a rough version of the code available [on Github](https://github.com/harvardnlp/regulatory-prediction), and we will soon be releasing a much better and easy-to-use version.
 
-## Overview of Machine Learning $$\times$$ Genetics 
+## Overview of Machine Learning $$\times$$ Genomics 
 
 In the past few years, there have been significant advances in both machine learning and genomics. In machine learning, there has been rapid advancement on tasks like image classification, segmentation, and machine translation using deep neural networks. These models require large amounts of training data, and put simply usually either learn hierarchical features through convolutional layers or sequential dependencies through recurrent layers. 
 
-At the same time, there has been a dramatic change in the study of the human genome. In the early 2000s, the Human Genome Project had just published its initial results, and researchers were only just beginning to get their hands on large-scale genomic data. Now, entire genomes can be sequenced cheaply, and techniques like ChipSeq and Hi-C have enabled researchers to get cell-type specific genome-wide charactertizations of genetic regulatory activity. 
+At the same time, there has been a dramatic change in the study of the human genome. In the early 2000s, the Human Genome Project had just published its initial results, and researchers were only just beginning to get their hands on large-scale genomic data. Now, entire genomes can be sequenced cheaply, and techniques like ChipSeq and Hi-C have enabled researchers to get cell-type specific genome-wide characterizations of regulatory activity. 
 
 With these experimental techniques has come a massive range of curated raw data sources, containing information like the locations of transcription factor binding sites, histone modifications, and DNAse hypersensitivity sites. The availability of this data leads to a series of questions: _can we use machine learning to model the regulatory regions of the genome_? Moreover, to what extent do methods that were originally developed for images and text apply to genomic data? Does a new class of methods need to be developed?
 
