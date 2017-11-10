@@ -30,7 +30,7 @@ One of the defining aspects of human DNA is its complex structure. Since grade s
 <div>
 <div class="image" style="width:65%; margin: 0 auto">
 	<img src="{{site.base_url}}/assets/long_distance_deps.png"/>
-	<div style="text-align:center">Distal regions of the DNA appear next to each other due to the protein-mediated bending of DNA.</div>
+	<div style="text-align:center">Distal regions of the DNA appear next to each other due to the protein-mediated bending of DNA. Image retrieved from <a href="https://www.oist.jp/news-center/photos/dna-loops"> here</a>.</div>
 </div>
 </div>
 
