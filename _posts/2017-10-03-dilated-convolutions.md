@@ -148,7 +148,7 @@ Dilated convolutional models perform the best on both TFBS and histone modificat
 On DNAse hypersensitivity prediction, we actually find that standard deep convolutions do well. This may be because accessible regions have highly explanatory local motifs, and having additional context far away does not improve the accuracy, which makes sense since accessible regions tend to be where binding activity occurs, and thus where we may expect to detect binding motifs. However, the other two marker types are more easily characterized with access to distal regions.
 
 
-## Visualizing the receptive fields
+## Visualizing the Receptive Fields
 
 To further investigate the trained models, we visualize the receptive fields by sampling a validation sequence and backpropagating an error of 1 from every positive output for a random regulatory marker. We plot the output locations (blue) and the norm of the error to the inputs (black), which gives a visual of the receptive field. Here, we see that the standard convolution has a narrow receptive field, while the dilated convolution has a wide one. In contrast, while the LSTM has a wide receptive field, we can see that the magnitude of the gradient is low to most of the input. In does not appear that the LSTM models are able to learn the long-distance depdencies that the dilated model captures.
 
