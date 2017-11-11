@@ -158,7 +158,7 @@ CNN7             |  Dilated         | Bi-LSTM
 :-------------------------:|:-------------------------:|:-------------------------:
 ![CNN7]({{site.base_url}}/assets/conv7_receptive_field.png)|![Dilated]({{site.base_url}}/assets/dilated_pooling_receptive_field.png) |  ![Bi-LSTM]({{site.base_url}}/assets/lstm_receptive_field.png)
 
-## Future Work:
+## Future Work
 There are several avenues for future work in this space. First, we use two datasets to do our implementation, one was an existing baseline that used 1000bp to classify the whole sequence, and the other was our new dataset that uses 25000 bp and then labels the whole sequence. These are different tasks, and as such their results cannot be directly compared. As such, we intend to also implement 1000 bp labeling and 25000 bp classification, which would allow us to more thoroughly determine the extent to which these architectures are effective in different domains.
 
 We have other ideas about incorporating transcription factor amino acid sequences, predicting methylation, and building more coherent datasets that address multiple tasks at once. If you have any ideas about any of these or want to collaborate, please [reach out](/contact).
