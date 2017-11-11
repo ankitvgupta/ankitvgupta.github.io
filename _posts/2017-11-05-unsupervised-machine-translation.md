@@ -30,7 +30,7 @@ For the core model, the authors use a fairly standard [encoder-decoder with atte
 
 1. *Shared encoder*: Only one encoder is needed, since the authors are using cross-lingual embeddings.
 2. *Fixed Pretrained Cross-Lingual Embeddings*: The authors used pretrained unsupervised cross-lingual embeddings, and then fix them during training. This way, the cross-lingual mapping does not change due to training.
-3. *One decoder per language*: While there is a shared decoder (due to the cross-lingual embeddings), there is a different decoder for each language. 
+3. *One decoder per language*: While there is a shared encoder (due to the cross-lingual embeddings), there is a different decoder for each language. 
 
 #### Unsupervised Training
 
