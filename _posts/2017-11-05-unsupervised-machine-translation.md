@@ -22,7 +22,7 @@ For review of the core methods that this blog post covers, check out these resou
 This paper focuses on building models to do neural machine translation with monolingual corpora - meaning no parallel corpuses between languages. Below are the fundamental steps that are needed to build this model.
 
 #### Unsupervised Cross-Lingual Embeddings
-One of the key techniques that this approach uses is cross-lingual embeddings. To train these, you first train embeddings in distinct languages using monolingual corpora, and then a linear transformation maps them into a shared space based on a bilingual diction. The authors also discuss how adversarial training and self-learning extensions can make this process further unsupervised. Armed with these cross-lingual embeddings, the authors can embed an input sequence from several different languages into a shared representation space. This is crucial for the “encoder” step in their model.
+One of the key techniques that this approach uses is cross-lingual embeddings. To train these, you first train embeddings in distinct languages using monolingual corpora, and then a linear transformation maps them into a shared space based on a bilingual dictionary. The authors also discuss how adversarial training and self-learning extensions can make this process further unsupervised. Armed with these cross-lingual embeddings, the authors can embed an input sequence from several different languages into a shared representation space. This is crucial for the “encoder” step in their model.
 
 #### Core Model: Encoder-Decoder with Global Attention, based on Bidirectional GRU.
 
