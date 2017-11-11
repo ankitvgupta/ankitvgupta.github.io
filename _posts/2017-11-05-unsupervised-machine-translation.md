@@ -34,12 +34,12 @@ For the core model, the authors use a fairly standard [encoder-decoder with atte
 
 #### Unsupervised Training
 
-To actually do the training, the authors use a host of techniques. Here is a summary of them
+To actually do the training, the authors use a host of techniques. Here is a summary of them:
 
 1. *Denoising*: This is a key aspect of this model. To make the model unsupervised, it is trained to reconstruct its own input. It is trained to take an input sequence, encode it, and then decode it back to the same language. Implemented naively, this is just a copying task. To prevent that from occurring, the authors add noise to the inputs, and the model learns to denoise the inputs. This is inspired by [denoising autoencoders](http://www.cs.toronto.edu/~larocheh/publications/icml-2008-denoising-autoencoders.pdf).
-2. *Backtranslation*: The denoising model still only learns translations to itself, not between languages. To do this, they use [backtranslation](https://arxiv.org/abs/1511.06709). In short, this means you encode a noisy input, decode it (greedily) into another language. This process creates a “pseudo-parallel” corpus. Then, train the system to predict the original sentence from this predicted translation.
+2. *Backtranslation*: The denoising model still only learns translations to itself, not between languages. To do this, they use [backtranslation](https://arxiv.org/abs/1511.06709). In short, this means you encode a noisy input and then decode it (greedily) into another language. This process creates a “pseudo-parallel” corpus. Then, train the system to predict the original sentence from this predicted translation.
 3. *Iterative Training*: They alternate the above training objectives. First they perform one batch of denoising for language 1 (L1), then one batch of denoising for language 2 (L2), then one batch of backtranslation from L1 to L2, and then one batch of backtranslation from L2 to L1. 
-4. *Optional small parallel corpus*: If you have a small parallel corpus, you can also alternate with training on that rather than the pseudo corpus. This is makes overall approach semi-supervised rather than unsupervised.
+4. *Optional small parallel corpus*: If you have a small parallel corpus, you can also alternate with training on that rather than just the pseudo corpus. This is makes overall approach semi-supervised rather than unsupervised.
 
 And that’s basically it. Refer to the [paper](https://arxiv.org/abs/1710.11041) to see the implementation details, hyperparameters, optimization methods, and results. In short, this works pretty well, approaching the performance of supervised NMT. Adding semi-supervision means it does extremely well. Please refer to the paper for in-depth details into the results.
 
