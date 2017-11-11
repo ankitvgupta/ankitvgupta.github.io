@@ -10,7 +10,7 @@ externalLink: false
 category: blog
 ---
 
-Two recent publications, both in review at ICLR 2017, propose methods to do *unsupervised* machine translation. While there appears to be no overlap between the authors of the studies, these works propose overlapping methods to translate between languages _without any parallel corpora_. To me, at least on first glance, this result seems highly unintuitive. So, I’m going to use this blog post to summarize these two approaches, and discuss their high-level differences.
+Two recent publications, both in review at ICLR 2017, propose methods to do *unsupervised* machine translation. These works propose overlapping methods to translate between languages _without any parallel corpora_. To me, at least on first glance, this result seems highly unintuitive. So, I’m going to use this blog post to summarize these two approaches, and discuss their high-level differences.
 
 Note that this post is not going to delve into a quantitative comparison of the results between these papers. Instead, I’m just trying to describe the method-level differences between the techniques. 
 
