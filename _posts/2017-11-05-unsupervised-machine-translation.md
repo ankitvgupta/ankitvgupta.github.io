@@ -24,7 +24,7 @@ This paper focuses on building models to do neural machine translation with mono
 #### Unsupervised Cross-Lingual Embeddings
 One of the key techniques that this approach uses is cross-lingual embeddings. To train these, you first train embeddings in distinct languages using monolingual corpora, and then a linear transformation maps them into a shared space based on a bilingual dictionary. The authors also discuss how adversarial training and self-learning extensions can make this process further unsupervised. Armed with these cross-lingual embeddings, the authors can embed an input sequence from several different languages into a shared representation space. This is crucial for the “encoder” step in their model.
 
-#### Core Model: Encoder-Decoder with Global Attention, based on Bidirectional GRU.
+#### Core Model: Encoder-Decoder with Global Attention, based on a Bidirectional GRU.
 
 For the core model, the authors use a fairly standard [encoder-decoder with attention](https://arxiv.org/abs/1409.0473). Here are some important attributes of this model:
 
@@ -65,7 +65,7 @@ Like the first paper, this one also seeks to perform unsupervised machine transl
 5. *Training Process*: Iterative training from an initial translation model. Start by inferring a [bilingual dictionary using monolingual data](https://arxiv.org/abs/1710.04087). The initial model is simply word-by-word translation using the parallel dictionary. Use the current model to translate each dataset and update the model and discriminator with the above loss function via gradient descent. Repeat until satisfied with the result.
 6. *Hyperparameter Selection*: Translate from language 1 to language 2 and back, and then calculate BLEU score between original inputs and their reconstructions. Do that in both directions, and take the average. The authors show that this metric correlates well with actual BLEU score using a parallel validation corpora.
 
-And that’s basically it. Again, there are details about the implementation that are worth looking into if you are trying to reimplement this result.  In short, they get pretty good results, again approaching the level of supervised NMT. They also do a number of addendums to assess how well this is learning the translation. 
+And that’s basically it. Again, there are details about the implementation that are worth looking into if you are trying to reimplement this result.  In short, they get pretty good results, again approaching the level of supervised NMT. They also have a number of addendums to assess how well this is learning the translation. 
 
 <hr> 
 ### Similarities Between the Papers
