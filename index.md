@@ -7,7 +7,9 @@ title: Ankit Gupta
 
 <img class="profile-picture" src="ankit.jpg">
 
-Hi! I am a graduate of Harvard University, where I earned a joint BA/MS in Computer Science. I graduated *magna cum laude* with highest honors, and was inducted into Phi Beta Kappa. In my final two years, I worked with Professor Alexander Rush in the Harvard NLP group on deep learning over sequential data. 
+I'm a Co-Founder of [Reverie Labs](http://www.reverielabs.com), which uses machine learning to accelerate drug discovery. 
+
+Previously, I was at Harvard University, where I earned a joint BA/MS in Computer Science. I graduated *magna cum laude* with highest honors, and was inducted into Phi Beta Kappa. In my final two years, I worked with Professor Alexander Rush in the [Harvard NLP group](http://nlp.seas.harvard.edu) on deep learning over sequential data. 
 
 For my thesis, I applied techniques from NLP to computational biology by using Dilated Convolutional Neural Networks to improve regulatory marker prediction on a whole-genome labeling task. This work was accepted to the ICML 2017 Workshop in Computational Biology, where I was also invited to give a talk, and received a speaker award and best poster award. I was co-advised by Dr. David Kelley, of the Broad Institute, for this work.
 
