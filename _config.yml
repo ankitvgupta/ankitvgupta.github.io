@@ -2,7 +2,16 @@ title: Ankit Gupta
 url: "https://ankitg.me"
 baseurl: "/"
 
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
 markdown: kramdown
+
+
 twitter_username: GuptaAnkitV
 tracking_id: UA-108355039-1
 
