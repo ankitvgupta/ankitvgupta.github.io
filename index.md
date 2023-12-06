@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Ankit Gupta
+description: My personal engineering blog, spanning machine learning and software engineering. A mix of side projects and serious thoughts.
 ---
 
 ## About Me
