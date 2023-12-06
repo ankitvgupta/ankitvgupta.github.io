@@ -5,7 +5,7 @@ layout: default
 {% include Math_Jax.html %}
 
 {% if page.image and page.headerImage %}
-    <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
+    <img class="title-image" src="{{ page.image | prepend: site.baseurl  }}" alt="{{ page.title }}">
 {% endif %}
 
 <h1 class="title">{{ page.title }}</h1>
