@@ -41,7 +41,7 @@
     {% endif %}
 
 
-    <meta name="description" content="{{ desc }}">
+    <meta name="description" property="og:description" content="{{ desc }}">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
     <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/main.css">
@@ -53,7 +53,6 @@
         <link rel="author" href="https://twitter.com/{{ site.twitter_username }}">
     {% endif %}
     <!-- Facebook Open Graph -->
-    <meta name="description" property="og:description" content="{{ desc }}">
     <meta name="og:description" content="{{ desc }}">
     <meta name="og:title" content="{{ page.title }}">
     <meta name="og:url" content="{{ url }}">
