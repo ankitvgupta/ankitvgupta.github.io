@@ -8,11 +8,11 @@ description: My personal engineering blog, spanning machine learning and softwar
 
 <img class="profile-picture" src="ankit.jpg">
 
-I'm a Co-Founder of [Reverie Labs](http://www.reverielabs.com), which uses machine learning to accelerate drug discovery. At Reverie, I lead a cross-function team of scientists and engineers spanning machine learning, data science, software engineering, cloud infrastructure, cheminformatics, and computational chemistry. My role is to be the bridge between the different groups of people, encourage them to learn and speak the same technical language, and find and ship projects at the intersection of computation and chemistry. We use these technologies to advance our in-house pipeline of small molecule therapeutics in oncology. 
+I'm a Visiting Partner at Y-Combinator. 
 
-Previously, I was at Harvard University, where I earned a joint BA/MS in Computer Science. I graduated *magna cum laude* with highest honors, and was inducted into Phi Beta Kappa. In my final two years, I worked with Professor Alexander Rush in the [Harvard NLP group](http://nlp.seas.harvard.edu) on deep learning over sequential data. 
+Previously, I was the Co-Founder and CTO of [Reverie Labs](https://biopharma.ginkgo.bio/resources/blog/acquiring-reverie-labs-platform-to-enhance-ai-driven-drug-discovery-capabilities-for-customer-programs), which used machine learning to accelerate drug discovery. At Reverie, I led a cross-function team of scientists and engineers spanning machine learning, data science, software engineering, cloud infrastructure, cheminformatics, and computational chemistry. My role is to be the bridge between the different groups of people, encourage them to learn and speak the same technical language, and find and ship projects at the intersection of computation and chemistry. We use these technologies to advance our in-house pipeline of small molecule therapeutics in oncology. Reverie Labs was sold to Ginkgo Bioworks in February 2024. 
 
-For my thesis, I applied techniques from NLP to computational biology by using Dilated Convolutional Neural Networks to improve regulatory marker prediction on a whole-genome labeling task. This work was accepted to the ICML 2017 Workshop in Computational Biology, where I was also invited to give a talk, and received a speaker award and best poster award. I was co-advised by Dr. David Kelley, of the Broad Institute, for this work.
+I went to college at Harvard University, where I earned a joint BA/MS in Computer Science. I graduated *magna cum laude* with highest honors, and was inducted into Phi Beta Kappa. In my final two years, I launched my research career, working with Professor Alexander Rush in the [Harvard NLP group](http://nlp.seas.harvard.edu) on deep learning over sequential data. For my thesis, I applied techniques from NLP to computational biology by using Dilated Convolutional Neural Networks to improve regulatory marker prediction on a whole-genome labeling task. I was co-advised by Dr. David Kelley, of the Broad Institute, for this work.
 
 ## Publications
 
@@ -30,7 +30,7 @@ For my thesis, I applied techniques from NLP to computational biology by using D
 
 ## Teaching 
 
-While I was a student at Harvard, I had the opportunity to be a teaching fellow for a variety of courses. This role involved helping to write problem sets, teaching weekly sections, holding office hours, leading course-wide review sessions, meeting students one-on-one and grading. I am grateful to have received the Derek Bok Award for Distinction in Teaching, given to teaching fellows with exemplary reviews from students.
+I love teaching, and had the privilege of having several experiences teaching while I was an undergrad. Teaching students helped me form my passions for computer science, and I look back fondly on those times.
 
 Year | Course | Professor
 -----|------- | -----------
