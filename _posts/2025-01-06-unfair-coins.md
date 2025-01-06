@@ -1,6 +1,6 @@
 ---
 title: "How unfair is the coin?"
-description: "Lessons on Building an AI x Bio Company"
+description: "Lessons on Building an AI x Bio Startup"
 layout: post
 date: 2025-01-06 12:00
 headerImage: false
