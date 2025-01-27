@@ -1,6 +1,6 @@
 ---
 title: "On the Eve of Superintelligence"
-description: "AI Progress and the Need to Prepare"
+description: "Preparing for AI Progress"
 layout: post
 date: 2025-01-27 1:00
 headerImage: false
