@@ -1,3 +1,0 @@
-rules "~MD013" # Disable line length
-rules "~MD033" # Allow some HTML
-style "#{File.dirname(__FILE__)}/.mdl.style.rb" # Use custom style file

@@ -4,11 +4,7 @@
 export GEM_HOME="$HOME/.gems"
 export PATH="$HOME/.gems/bin:$PATH"
 
-echo "Linting Markdown files..."
-mdl _posts/ _projects/ *.md
+echo "Running all linters..."
+npm run lint
 
-echo "Linting SCSS files..."
-scss-lint _sass/
-
-echo "Linting HTML files..."
-npx htmlhint _includes/*.html _layouts/*.html
+echo "To auto-fix linting issues, run: npm run lint:fix"
