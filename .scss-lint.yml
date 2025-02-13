@@ -1,0 +1,22 @@
+linters:
+  SpaceAfterPropertyColon:
+    enabled: true
+    style: one_space
+  PropertySortOrder:
+    enabled: true
+  Indentation:
+    enabled: true
+    width: 2
+  EmptyLineBetweenBlocks:
+    enabled: true
+  ImportantRule:
+    enabled: true
+  PropertySpelling:
+    enabled: true
+  ColorKeyword:
+    enabled: true
+  ColorVariable:
+    enabled: true
+  SelectorFormat:
+    enabled: true
+    convention: hyphenated_lowercase
