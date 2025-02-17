@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "markdownlint-cli2": "^0.12.1",
+    "prettier": "^3.2.5",
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard-scss": "^13.0.0"
+  },
+  "scripts": {
+    "lint": "npm run lint:md && npm run lint:scss && npm run lint:html",
+    "lint:fix": "npm run lint:md:fix && npm run lint:scss:fix && npm run lint:html:fix",
+    "lint:md": "npx markdownlint-cli2 \"**/*.md\" \"!node_modules\"",
+    "lint:md:fix": "npx markdownlint-cli2 --fix \"**/*.md\" \"!node_modules\"",
+    "lint:scss": "npx stylelint \"_sass/**/*.scss\"",
+    "lint:scss:fix": "npx stylelint \"_sass/**/*.scss\" --fix",
+    "lint:html": "npx htmlhint _includes/*.html _layouts/*.html",
+    "lint:html:fix": "npx prettier --write \"_includes/*.html\" \"_layouts/*.html\""
+  }
+}
