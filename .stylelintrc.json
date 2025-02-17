@@ -1,19 +1,17 @@
 {
-  "extends": [
-    "stylelint-config-standard",
-    "stylelint-config-standard-scss"
-  ],
+  "extends": "stylelint-config-standard-scss",
   "rules": {
-    "indentation": 4,
+    "alpha-value-notation": "percentage",
+    "color-function-notation": "legacy",
+    "indentation": [4, { "baseIndentLevel": 1 }],
     "string-quotes": "double",
+    "no-descending-specificity": null,
     "no-duplicate-selectors": null,
     "declaration-block-no-shorthand-property-overrides": null,
     "scss/at-extend-no-missing-placeholder": null,
     "no-invalid-position-at-import-rule": null,
     "font-family-no-missing-generic-family-keyword": null,
     "color-named": null,
-    "scss/double-slash-comment-whitespace-inside": null,
-    "alpha-value-notation": "percentage",
-    "color-function-notation": "legacy"
+    "scss/double-slash-comment-whitespace-inside": null
   }
 }
