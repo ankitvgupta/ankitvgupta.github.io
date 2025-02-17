@@ -1,6 +1,11 @@
 {
-  "extends": "stylelint-config-standard-scss",
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-standard-scss"
+  ],
   "rules": {
+    "indentation": 4,
+    "string-quotes": "double",
     "no-duplicate-selectors": null,
     "declaration-block-no-shorthand-property-overrides": null,
     "scss/at-extend-no-missing-placeholder": null,
