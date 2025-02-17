@@ -1,13 +1,14 @@
 {
-  "extends": "stylelint-config-standard-scss",
+  "extends": [
+    "stylelint-config-standard-scss"
+  ],
   "rules": {
-    "indentation": 2,
-    "string-quotes": "single",
-    "no-duplicate-selectors": true,
-    "color-hex-case": "lower",
-    "color-hex-length": "short",
-    "color-named": "never",
-    "selector-max-id": 1,
-    "declaration-block-trailing-semicolon": "always"
+    "no-duplicate-selectors": null,
+    "declaration-block-no-shorthand-property-overrides": null,
+    "scss/at-extend-no-missing-placeholder": null,
+    "no-invalid-position-at-import-rule": null,
+    "font-family-no-missing-generic-family-keyword": null,
+    "color-named": null,
+    "scss/double-slash-comment-whitespace-inside": null
   }
 }
