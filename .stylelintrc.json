@@ -1,6 +1,5 @@
 {
   "extends": "stylelint-config-standard-scss",
-  "customSyntax": "postcss-scss",
   "rules": {
     "no-duplicate-selectors": null,
     "declaration-block-no-shorthand-property-overrides": null,
@@ -9,8 +8,7 @@
     "font-family-no-missing-generic-family-keyword": null,
     "color-named": null,
     "scss/double-slash-comment-whitespace-inside": null,
-    "indentation": 4,
-    "string-quotes": "double",
+    "alpha-value-notation": "percentage",
     "color-function-notation": "legacy"
   }
 }
