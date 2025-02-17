@@ -9,7 +9,8 @@
     "font-family-no-missing-generic-family-keyword": null,
     "color-named": null,
     "scss/double-slash-comment-whitespace-inside": null,
-    "indentation": null,
-    "string-quotes": null
+    "indentation": 4,
+    "string-quotes": "double",
+    "color-function-notation": "legacy"
   }
 }
