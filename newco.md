@@ -20,5 +20,3 @@ We are developing cutting-edge AI solutions that:
 ## Current Status
 
 We are currently in stealth mode, building our core technology and forming strategic partnerships. If you're interested in learning more about our work or potential collaborations, please stay tuned for updates.
-
-*Note: This page is intentionally not linked from our main site during our stealth phase.*
