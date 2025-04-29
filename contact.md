@@ -3,7 +3,7 @@ layout: default
 is_contact: true
 ---
 
-* Email: ankitgupta [at] alumni [dot] harvard [dot] edu
+* Email: ankit [at] ycombinator [dot] com
 
 ---
 
