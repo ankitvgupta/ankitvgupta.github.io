@@ -18,7 +18,7 @@ For software companies, being default alive vs default dead has a simple definit
 
 Applying this framing to biotech companies is challenging. Since almost all biotech companies with drug pipelines produce no revenue until their drugs complete clinical trials, this means almost all are default dead. Most "successes" are single asset companies that get acquired by pharma while running trials, and so this means that even the wins are default dead for their entire life. Also, unlike software companies, assuming "fixed expenses" is not realistic in progressing drugs. There are considerable step-function increases in costs as biotechs advance their internal pipelines into the clinic. 
 
-One first thought, it may appear that the same dynamics exist in nearly all hard-tech companies. Many businesses -- in defense, satellites, aerospace, chemicals, and others -- involve spending large sums of money prior to making a considerable return. 
+On first thought, it may appear that the same dynamics exist in nearly all hard-tech companies. Many businesses -- in defense, satellites, aerospace, chemicals, and others -- involve spending large sums of money prior to making a considerable return. 
 
 But in most hard tech companies, the amount of technical risk (i.e. can I make my product) far exceeds the market risk (i.e. does anyone want this product). For example, [Boom Supersonic](https://boomsupersonic.com/) is mostly a bet on whether it's possible to fly supersonic from London to NYC for the price of a business class ticket, not whether anyone wants that. [Solugen](https://solugen.com/) is mostly a bet on whether it's possible to make chemicals like hydrogen peroxide much more cheaply and safely, not whether people want those. 
 
