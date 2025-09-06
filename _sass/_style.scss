@@ -126,6 +126,30 @@ hr {
     }
 }
 
+/* Blog post bottom spacing */
+.blog-navigation {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 10%);
+}
+
+.blog-navigation .prev,
+.blog-navigation .next {
+    display: inline-block;
+    width: 48%;
+}
+
+.blog-navigation .next {
+    text-align: right;
+}
+
+/* Add bottom margin to post content */
+.post-content {
+    margin-bottom: 60px;
+    padding-bottom: 80px;
+}
+
 @import "typography";
 @import "tables";
 @import "highlight";
