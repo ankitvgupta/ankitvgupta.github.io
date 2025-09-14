@@ -8,7 +8,7 @@ description: My personal engineering blog, spanning machine learning and softwar
 
 <img class="profile-picture" src="ankit.jpg">
 
-I'm a Visiting Partner at Y-Combinator.
+I'm a General Partner at Y-Combinator.
 
 Previously, I was the Co-Founder and CTO of [Reverie Labs](https://biopharma.ginkgo.bio/resources/blog/acquiring-reverie-labs-platform-to-enhance-ai-driven-drug-discovery-capabilities-for-customer-programs), which used machine learning to accelerate drug discovery. At Reverie, I led a cross-function team of scientists and engineers spanning machine learning, data science, software engineering, cloud infrastructure, cheminformatics, and computational chemistry. My role was to be the bridge between the different groups of people, encourage them to learn and speak the same technical language, and find and ship projects at the intersection of computation and chemistry. We used these technologies to advance our in-house pipeline of small molecule therapeutics in oncology. Reverie Labs was sold to Ginkgo Bioworks in February 2024.
 
@@ -16,7 +16,7 @@ I went to college at Harvard University, where I earned a joint BA/MS in Compute
 
 ## Publications
 
-1. Gupta, A. and Rush, A.M., 2017. Dilated Convolutions for Modeling Long-Distance Genomic Dependencies. International Conference of Machine Learning, Sydney, Australia. [[arXiv]](https://arxiv.org/abs/1710.01278) [[code]](https://github.com/harvardnlp/regulatory-prediction) [[Talk]](https://youtu.be/HmCecphEvQg)
+1. Gupta, A. and Rush, A.M., 2017. Dilated Convolutions for Modeling Long-Distance Genomic Dependencies. International Conference of Machine Learning (Comp Bio Workshop), Sydney, Australia. [[arXiv]](https://arxiv.org/abs/1710.01278) [[code]](https://github.com/harvardnlp/regulatory-prediction) [[Talk]](https://youtu.be/HmCecphEvQg)
 
 ## Research, Academic, and Teaching Awards
 
