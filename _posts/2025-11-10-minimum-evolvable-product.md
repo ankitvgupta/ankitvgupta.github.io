@@ -34,7 +34,7 @@ As one case study, consider Tesla, and specifically their amoeba: the Tesla Road
 
 Tesla's story reveals another reality: products evolve via an *evolutionary search* starting from what the early adopters wanted. Why does the Tesla Model Y, a mass market vehicle, have a faster 0-60 than a Lamborghini and better tech than a BMW, but worse suspension and plushness than a Toyota? Turns out the early adopters and second generation adopters cared more about tech and acceleration than comfort. Would a mass-market vehicle designed in a vacuum have a 0 to 60 of \< 3 seconds? Probably not. But it's an outcome of the search algorithm that Tesla ran that happened to start with a sports car. If the early adopters were willing to pay $150k for a slow, plush vehicle, I bet Tesla's cars today would look very different.
 
-So when just starting out, think about a minimum *viable* product as a minimum *evolvable* product. That is, one that can be subject to market pressures and evolve from into a mature one. It's freeing to know that the product will change a lot so it doesn't have to be perfect from the start. On the other hand, how it changes is likely a function of where it begins.
+So when just starting out, think about a minimum *viable* product as a minimum *evolvable* product. That is, one that can be subject to market pressures and evolve from there into a mature one. It's freeing to know that the product will change a lot so it doesn't have to be perfect from the start. On the other hand, how it changes is likely a function of where it begins.
 
 (and to those wondering what we do at YC, we help founders run this counterintuitive algorithm.)
 
